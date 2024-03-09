@@ -6,12 +6,11 @@
     <title>contact</title>
 </head>
 <body>
-    
     <a href="../index.html" go to home >home</a>
 
-    <a href="../skills/skills.html"go to skill>skill</a>
+    <a href="../skills/skills.html"go to skill>skills</a>
 
-    <a href="../project/project.html"go to project>project</a>
+    <a href="../project/project.html"go to project>projects</a>
 
     <a href="./contact.html"go to contact>contact</a>
 
@@ -25,8 +24,44 @@
     <img src="./email .png"alt="email" title="its my email"> 
 
     <a href="mailto:roqaiyajaani@gmail.com">email</a>
-    
-    <h3>linkedin profile</h3>
+    <br>
+    <br>
+    <a href=https://www.linkedin.com/in/roqaiya-jaani-8494492b2>linkedin profile</a><section id="contact">
+        <br>
+        <style>
 
+        /* css for body*/
+            body {background-color: gray;
+            }
+            
+
+            /* CSS for fieldset*/
+fieldset{
+    width: 40%; 
+    margin: 0 auto;
+    border: 1px solid black;
+}
+      h1 {
+    text-align: center;
+}
+        </style>
+        <fieldset>
+            <form>
+        <h2>Contact Me</h2>
+        <br>
+        <form action="process_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+           <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+             <br><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="3" colum="3" required></textarea>
+            <br><br>
+            <button type="submit">Send Message</button>
+        </form>
+    </fieldset>
+    </section>
 </body>
 </html>
