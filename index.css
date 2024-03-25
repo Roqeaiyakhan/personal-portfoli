@@ -1,0 +1,15 @@
+/* Selects and styles the first child of any <div> element */
+div > :first-child {
+    color: rgb(210, 119, 210);
+  }
+  
+  /* Selects and styles the second <li> element within any <ul> */
+  ul > li:nth-child(2) {
+    background-color: green;
+  }
+  
+  /* Selects and styles every third child among a group of siblings */
+  :nth-child(3n) {
+    font-weight: bold;
+  }
+  

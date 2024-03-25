@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact</title>
+    <link rel="stylesheet" href="./contact.css">
 </head>
 <body>
     <nav>
@@ -17,7 +18,7 @@
     <a href="../feedback/feedback.html">feedback</a>
         </ul>
     </nav>
-<article>
+
     <br>
     <h1>contact information </h1>
     <h3>Contact</h3>
@@ -37,31 +38,17 @@
         <br><br>
         <img src="./github.png" alt="Github" width="50">
         <a href="https://github.com/Roqeaiyakhan/practice.git">github</a>
-        <br><br>
-        <style>
-
-        /* css for body*/
-            body {background-color: lightgray;
-            }
-            
-
-            /* CSS for fieldset*/
-fieldset{
-         width: 40%; .
-         margin : 0;
-          border: 1px solid black;
-}       
-      h1 {
-    text-align: center;
-}
-        </style>
-        <fieldset>
+        <br>
+        
+        <center>
+        <fieldset> 
             <form>
         <h2>Contact Me</h2>
         <br>
         <form action="process_form.php" method="post">
+
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+            <input type="text" id="name"class="form-input" name="name" required>
            <br><br>
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
@@ -69,15 +56,18 @@ fieldset{
             <label for="message">Message:</label>
             <textarea id="message" name="message" rows="3" colum="3" required></textarea>
             <br><br>
-            <button type="submit">Send Message</button>
+             <input type="submit" id="submit-button" class="button" value="Send">
+        
         </form>
+    
     </fieldset>
+   </center>
     </section>
     <br><br>
-    <b>Google Map</b> 
+    <b>location</b> 
     <footer>
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d105822.09675454008!2d71.5849728!3d34.0197376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1710086985140!5m2!1sen!2s" width="450" height="450" style="border: 3px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">Google Map </iframe>"
     </footer>
-</article>
+
 </body>
 </html>

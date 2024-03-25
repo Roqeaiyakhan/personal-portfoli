@@ -4,10 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>project</title>
+    <link rel="stylesheet" href="./index.css">
+    <!-- javascript for audio -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var audio = new Audio("./roqaiya.mp3");
+            function playAudio() {
+                audio.play();
+            }
+            document.getElementById("speaker").addEventListener("click", playAudio);
+        });
+    </script>
 </head>
 <body> 
-    <style>
-        body{ background-color: aliceblue;}    </style>
+  
     <nav>
         <ul>
    <a href="./project/project.html">projects</a>
@@ -20,19 +30,15 @@
     </nav>
    <header>
  <h1>personal porfolio</h1>
-   </heade>
-    <p><img src="./pexels-ida-rizkha-3685271(1).jpg" alt="girl" title="my pic"width="200">
+   </header>
+   <div>
+    <p ><img src="./pexels-ida-rizkha-3685271(1).jpg" alt="girl" title="my pic"width="200">
         <br><br>
-        <body>my intro</body>
         <br>
-        <audio src="./myintro.mp3"  controls ></audio>
+       <img id="speaker" src="./speaker.png" alt="speaker icon">
         <br>
-        <article>
         My name is <b>Roqeya,</b>i belong to a muslim family .i am currently  learing web development from 
     <b>SMIT .</b>  and i am an undergraduate student of computer science in SSBWU peshawar . </p>
-    
-</article>
-
 <h2>contact information</h2>
 
 <p><ol> <img src="./contact/whatsapp.png" alt="whatsapp"title= "whatsapp">03339898157</ol>

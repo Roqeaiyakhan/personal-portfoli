@@ -1,0 +1,19 @@
+body{
+   background-color:  rgba(185,179,165,5);
+   width: 36%;
+   height: 40%;
+   
+}
+
+#submit-button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;}
+
+    .feedback{
+    border: 2px solid #4CAF50; /* Green border */
+    padding: 20px; 
+    border-radius: 25px; /* Rounded corners */
+    }
