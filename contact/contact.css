@@ -1,9 +1,9 @@
 body{
-    background-color: rgba(185,179,165,5);;
+  background-color:rgb(25, 31, 54)
 }
 
 *{
-    color: rgb(4, 91, 94);
+  color: #ffffff;
 }
 fieldset{
     width: 40%; 

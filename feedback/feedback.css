@@ -1,19 +1,26 @@
 body{
-   background-color:  rgba(185,179,165,5);
-   width: 36%;
-   height: 40%;
-   
-}
+      background-color:rgb(25, 31, 54);
+      width: 36%;
+      height: 40%; }
 
+*{
+   color: #ffffff;
+ }
 #submit-button {
     background-color: blue;
-    color: white;
+    color: #ffff;
     padding: 10px 20px;
     border: none;
-    cursor: pointer;}
+    cursor: pointer;
+    color: width 36px; 
+   }
 
     .feedback{
-    border: 2px solid #4CAF50; /* Green border */
+      background-color: black;
     padding: 20px; 
     border-radius: 25px; /* Rounded corners */
+    
+    }
+    div h1{
+color: #ffffff;
     }

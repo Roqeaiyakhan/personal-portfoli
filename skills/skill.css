@@ -1,6 +1,9 @@
+body{
+     background-color:rgb(25, 31, 54)
+}
+*{
+    color: #ffffff;
+  }
 p.intress{
     color: rgb(65, 61, 55);
-}
-body{
-     background-color: rgba(185,179,165,5);
 }

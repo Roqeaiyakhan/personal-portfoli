@@ -1,3 +1,9 @@
+body{
+    background-color:rgb(25, 31, 54)
+}
+*{
+    color: #ffffff;
+  }
 table,tr , th,td{
     border :1px solid rgb(9, 9, 9);
     border-collapse: collapse ;
@@ -5,8 +11,6 @@ table,tr , th,td{
 th, td{ 
      background-color: rgba(185,179,165,5);
 }
-
-body{
-    background-color: lightslategray;
-    color: black;
+div p{
+    color: blue;
 }
