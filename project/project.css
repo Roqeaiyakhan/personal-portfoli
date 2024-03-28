@@ -5,12 +5,12 @@ body{
     color: #ffffff;
   }
 table,tr , th,td{
-    border :1px solid rgb(9, 9, 9);
+    border :1px solid #ffffff ;
     border-collapse: collapse ;
 }
-th, td{ 
-     background-color: rgba(185,179,165,5);
-}
-div p{
-    color: blue;
+/* th, td{ 
+    background-color: rgba(185,179,165,5);
+} */
+div h2{
+    color: #5d3781;
 }

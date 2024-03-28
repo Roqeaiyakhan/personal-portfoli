@@ -10,5 +10,14 @@ body
     border: 1px solid;
   }
  div b{
-  color: #8491c5;
- }
+color:#3C6E71;
+}
+#name {
+     color: #ee6c4d;
+}
+.contact{
+  color: #f05f3b;
+}
+.education{
+  color: #f05f3b;
+}
