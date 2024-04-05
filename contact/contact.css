@@ -12,6 +12,12 @@ fieldset{
  h1 {
 text-align: center;
 }
+h2{
+  color: #3d6675;
+}
+h3{
+  color: #3d6675;
+}
     .form-input {
       color: black;
       margin: 10px 0;
@@ -27,4 +33,7 @@ text-align: center;
     }
     #contact{
       color: #696565;
+    }
+    div h2{
+      color: #3d6675;
     }
